@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SKASC College Timings</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f1f5f9;
+      color: #1e293b;
+      margin: 0;
+    }
+    header {
+      background: #12376a;
+      color: white;
+      text-align: center;
+      padding: 30px 15px;
+    }
+    main {
+      max-width: 850px;
+      margin: 30px auto;
+      padding: 20px;
+    }
+    .card {
+      background: white;
+      padding: 22px;
+      margin: 16px 0;
+      border-radius: 12px;
+      box-shadow: 0 3px 12px #0001;
+    }
+    a { color: #1258a8; }
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #64748b;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sri Krishna Arts and Science College</h1>
+    <p>College Lab Timings Portal</p>
+  </header>
+  <main>
+    <div class="card">
+      <h2>Welcome, Students!</h2>
+      <p>Check the college lab schedule below.</p>
+    </div>
+    <div class="card">
+      <h2>Computer Science Lab</h2>
+      <p id="cs">Loading timings...</p>
+    </div>
+    <div class="card">
+      <h2>Software Systems Lab</h2>
+      <p id="ss">Loading timings...</p>
+    </div>
+    <div class="card">
+      <h2>Notice Board</h2>
+      <p id="notice">Loading notice...</p>
+    </div>
+  </main>
+  <footer>
+    SKASC College Portal | Automated Deployment with GitHub Actions
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
